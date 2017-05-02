@@ -246,8 +246,9 @@ hr {
     }
     .navbar-nav>li {
         float: none;
-        width: 151px;
+        width: 300px;
         border-radius: 3px;
+        margin-bottom: 2px;
     }
     .navbar-nav>li>a {
         padding-top: 10px;
