@@ -34,7 +34,7 @@ figure {
     display: block;
     width: 225px;
     height: 150px;
-    background-color: whie;
+    background-color: white;
     margin-top: 0px;
     padding: 0px;
     padding-top: 10px;
@@ -70,6 +70,10 @@ figure2caption {
     text-align: left;
     line-height: 15px;
     display: block;
+    color: #333;
+}
+ figuresinglecaption:hover,figuresinglecaption:focus,figuresinglecaption:visited,figure2caption:hover, figure2caption:focus, figure2caption:visited {
+    color: #01548E;
 }
 figure2crosscaption {
     float: left;
@@ -82,6 +86,10 @@ figure2crosscaption {
     text-align: left;
     line-height: 15px;
     display: block;
+    color: #333;
+}
+figure2crosscaption:hover, figure2crosscaption:focus, figure2crosscaption:visited{
+    color: #01548E;
 }
 figuresinglecaption {
     float: left;
@@ -94,6 +102,7 @@ figuresinglecaption {
     line-height: 15px;
     display: block;
     word-break: normal;
+    color: #333;
 }
 /* OVERALL ASPECT */
 
@@ -151,6 +160,7 @@ a:focus {
     text-decoration: none;
     outline: 0;
 }
+
 a:before,
 a:after {
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -588,12 +598,14 @@ a:after {
     width: 100%;
 }
 
-media (min-width: 1200px) 
-.account-masthead .container {
+@media (min-width: 1200px){ 
+.container {
     width: 92%;
 }
+}
 
-.container {
+
+.container, .head-container {
     margin-right: auto;
     margin-left: auto;
 }
@@ -601,6 +613,10 @@ media (min-width: 1200px)
 .navbar-fixed-top {
     position: relative;
 } 
+
+.navbar-nav > li > a {
+    margin-right: 2px;
+}
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > li > a:active {
     background-color: #336699;
@@ -616,4 +632,35 @@ div > h1 > b {
 
 input.search-query.form-control {
     font-weight: bold;
+}
+
+.nav-masthead {
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    padding-right: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+    list-style: none;
+}
+
+@media (min-width:990px) { 
+.head-container {
+     width: 92%;
+     padding-right: 25px;
+}
+}
+
+@media (max-width:990px) {
+.head-container {
+    float: right;
+    padding-right: 30px;
+}
+}
+
+.nav-masthead li a {
+    color: #e6e6e6; 
+}
+.nav-masthead li a:hover {
+    color: #a5ccfb;
+    background-color: transparent;
 }
