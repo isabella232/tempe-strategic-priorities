@@ -213,6 +213,11 @@ hr {
     }
     .navbar-toggle {
         display: block;
+        background-color: #003647;
+    }
+    .navbar-inverse .navbar-toggle:hover,
+    .navbar-inverse .navbar-toggle:focus {
+        background-color: #003647;
     }
     .navbar-collapse {
         border-top: 1px solid transparent;
