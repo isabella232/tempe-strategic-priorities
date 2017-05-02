@@ -231,6 +231,8 @@ hr {
     }
     .navbar-nav>li {
         float: none;
+        width: 151px;
+        border-radius: 3px;
     }
     .navbar-nav>li>a {
         padding-top: 10px;
