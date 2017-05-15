@@ -76,29 +76,40 @@
 
 <body>
     <!-- Fixed navbar -->
+    <header class="account-masthead">
+        <div class="head-container">
+            <ul class="navbar-right nav-masthead">
+                <li>
+                    <a title="Contact Us" data-toggle="modal" data-target="#myModal" href="mailto:data@tempe.gov">
+                        <!--<i class="fa fa-envelope-o"></i>-->CONTACT US
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar">
-                    </span>
+                    <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="index.html" title="City of Tempe">CITY OF TEMPE</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="index.html" alt="Home" title="Home">HOME</a>
+                    <li class="active">
+                        <a href="index.html" alt="Home" title="Home">
+                        HOME
+                        </a>
                     </li>
-                    <li><a href="http://tempesandbox.ogopendata.com" alt="Open Data Portal" title="Open Data Portal">
-                        OPEN DATA</a>
-                    </li>
-
-                    <!-- <li><a href="#" alt="Indicators" title="Indicators"></a>
-                    </li>-->
-                    <!--<li><a href="#" alt="Dashboards">DASHBOARDS</a></li>-->
                     <li>
-                        <a title="Contact Us" data-toggle="modal" data-target="#myModal" href="mailto:data@tempe.gov">
-                            <!--<i class="fa fa-envelope-o"></i>-->CONTACT US
+                        <a href="index.html#dg" alt="STRATEGIC PRIORITIES" title="Strategic Priorities">
+                        STRATEGIC PRIORITIES
+                        </a>
+                    </li>
+                    <li>
+                        <a style="font-weight: 900;" href="/" alt="Open Data Portal" title="Open Data Portal">
+                        OPEN DATA
                         </a>
                     </li>
                 </ul>
@@ -111,7 +122,8 @@
             <div class="row centered">
                 <div class="col-lg-10 col-lg-offset-1">
                     <h1>
-                        <b>CITY OF TEMPE <br>STRATEGIC PRIORITIES</b></h1>
+                        CITY OF TEMPE <br>STRATEGIC PRIORITIES
+                    </h1>
 
                     <h2>
                         Measuring Resident Satisfaction with Government
@@ -125,7 +137,7 @@
                                 <span class="input-group-btn">
                                     <button class="btn btn-primary search-query-btn" type="button">
                                         <span class="glyphicon glyphicon-search"></span>
-                                </button>
+                                    </button>
                                 </span>
                             </div>
                         </div>
@@ -164,7 +176,7 @@
                 <!-- /col-lg-3 -->
                 <!-- Second Chart -->
                 <div class="col-lg-15 col-sm-15 col-xs-15">
-                    <a href="http://tempesandbox.ogopendata.com/organization/strong-community-connections" target="_blank">
+                    <a href="http://tempesandbox.ogopendata.com/group/strong-community-connections" target="_blank">
                         <a href="#">
                             <div class="box box-hover-color">
                                 <figure>
@@ -186,7 +198,7 @@
                 <!-- /col-lg-3 -->
                 <!-- Third Chart -->
                 <div class="col-lg-15 col-sm-15 col-xs-15">
-                    <a href="http://tempesandbox.ogopendata.com/organization/quality-of-life" target="_blank">
+                    <a href="http://tempesandbox.ogopendata.com/group/quality-of-life" target="_blank">
                         <div class="box box-hover-color">
                             <figure>
                                 <img src="assets/img/quality.jpg" style="width:205px;height:90px:">
@@ -195,9 +207,7 @@
                                     <img src="assets/img/qualitylogosm.png" style="width:28px;height:28px">
                                 </figure2>
 
-                                <figuresinglecaption>
-
-                                    Quality of Life</figuresinglecaption>
+                                <figuresinglecaption>Quality of Life</figuresinglecaption>
                             </figure>
 
                         </div>
@@ -208,7 +218,7 @@
                 <!-- /col-lg-3 -->
                 <!-- Fourth Chart -->
                 <div class="col-lg-15 col-sm-15 col-xs-15">
-                    <a href="http://tempesandbox.ogopendata.com/organization/sustainable-growth" target="_blank">
+                    <a href="http://tempesandbox.ogopendata.com/group/sustainable" target="_blank">
                         <div class="box box-hover-color">
                             <figure>
                                 <img src="assets/img/sustainsolar.jpg" style="width:205px;height:90px:">
@@ -229,7 +239,7 @@
                 <!-- /col-lg-3 -->
                 <!-- Fifth Chart -->
                 <div class="col-lg-15 col-sm-15 col-xs-15">
-                    <a href="http://tempesandbox.ogopendata.com/organization/financial-stability" target="_blank">
+                    <a href="http://tempesandbox.ogopendata.com/group/financial" target="_blank">
                         <div class="box box-hover-color">
                             <figure>
                                 <img src="assets/img/financial.jpg" style="width:205px;height:90px:">
@@ -252,8 +262,10 @@
                 <!-- /col-lg-3 -->
             </div>
             <!-- row -->
+            <div id="ct">
             <h4>
                 BROWSE OUR CROSSCUT THEMES</h4>
+            </div>
             <hr />
             <div class="row centered">
                 <!-- First Chart -->

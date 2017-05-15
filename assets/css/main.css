@@ -34,7 +34,7 @@ figure {
     display: block;
     width: 225px;
     height: 150px;
-    background-color: whie;
+    background-color: white;
     margin-top: 0px;
     padding: 0px;
     padding-top: 10px;
@@ -70,6 +70,10 @@ figure2caption {
     text-align: left;
     line-height: 15px;
     display: block;
+    color: #333;
+}
+ figuresinglecaption:hover,figuresinglecaption:focus,figuresinglecaption:visited,figure2caption:hover, figure2caption:focus, figure2caption:visited {
+    color: #01548E;
 }
 figure2crosscaption {
     float: left;
@@ -82,6 +86,10 @@ figure2crosscaption {
     text-align: left;
     line-height: 15px;
     display: block;
+    color: #333;
+}
+figure2crosscaption:hover, figure2crosscaption:focus, figure2crosscaption:visited{
+    color: #01548E;
 }
 figuresinglecaption {
     float: left;
@@ -94,6 +102,7 @@ figuresinglecaption {
     line-height: 15px;
     display: block;
     word-break: normal;
+    color: #333;
 }
 /* OVERALL ASPECT */
 
@@ -105,7 +114,6 @@ body {
     color: #152638;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
-    margin-top: 70px;
 }
 /* Titles */
 
@@ -152,6 +160,7 @@ a:focus {
     text-decoration: none;
     outline: 0;
 }
+
 a:before,
 a:after {
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -171,24 +180,33 @@ hr {
     padding: 0;
 }
 .navbar {
-    font-weight: 800;
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+    font-weight: bold;
     font-size: 14px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
 }
 .navbar-inverse {
     background: #152638;
     border-color: #152638;
 }
+
 .navbar-inverse .navbar-nav > .active > a {
-    background: #3f76af;
-    font-family: 'Lato', 'sans-serif';
+    background: #336699;
+    font-family: 'Montserrat', sans-serif;
 }
+.navbar-nav {
+    padding-top: 13px;
+    font-size: 14px;
+}
+
 .navbar-inverse .navbar-brand {
     color: #bdbdbd;
-    font-weight: bolder;
-    font-size: 22px;
-    letter-spacing: 1px;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 1.5;    
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -1px;
 }
 .navbar-inverse .navbar-brand i {
     color: #ff7878;
@@ -205,6 +223,11 @@ hr {
     }
     .navbar-toggle {
         display: block;
+        background-color: #003647;
+    }
+    .navbar-inverse .navbar-toggle:hover,
+    .navbar-inverse .navbar-toggle:focus {
+        background-color: #003647;
     }
     .navbar-collapse {
         border-top: 1px solid transparent;
@@ -223,6 +246,9 @@ hr {
     }
     .navbar-nav>li {
         float: none;
+        width: 300px;
+        border-radius: 3px;
+        margin-bottom: 2px;
     }
     .navbar-nav>li>a {
         padding-top: 10px;
@@ -253,9 +279,9 @@ hr {
    ========================================================================== */
 
 #headerwrap {
-    background: url(../img/tempe-from-lake.jpg) no-repeat center top;
+    background: url(../img/HeaderImage_E.jpg) no-repeat center top;
     margin-top: -60px;
-    padding-top: 20px;
+    padding-top: 0px;
     text-align: center;
     background-attachment: relative;
     background-position: center center;
@@ -271,30 +297,34 @@ hr {
     background-size: cover;
 }
 #headerwrap h1 {
-    margin-top: 100px;
+    margin-top: 60px;
     color: white;
     font-size: 60px;
-    font-weight: 300;
-    letter-spacing: 3px;
+    font-weight: bold;
+    word-spacing: normal;
+    line-height: 1.3;
 }
 #headerwrap h2 {
-  font-family: "Lato", sans-serif;
+    font-family: Arial,Helvetica,Arial,Verdana,sans-serif;
     color: white;
     font-size: 30px;
-    font-weight: 700;
-    letter-spacing: 2px;
+    font-weight: 900;
+    line-height: 33px;
     text-transform: uppercase;
 }
 /* Dark Grey Wrap */
 
 #dg {
     background: #d4d9de;
-    padding-top: 35px;
+    padding-top: 15px;
     padding-bottom: 15px;
     text-align: left;
 }
 #dg h4 {
-    font-weight: 700;
+    font-weight: normal;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.3;
 }
 /* Light Grey */
 
@@ -542,15 +572,96 @@ a:after {
 .panel-title > a {
     color: #f2f2f2;
 }
+
 .col-lg-8 > p {
     text-align: left;
     font-family: 'Roboto', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    .col-lg-7 > p;
-    {
-        text-align: left;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-    .btn-primary > a {
-        color: #f2f2f2;
-    }
-    ;
+}
+
+.col-lg-7 > p {
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-primary > a {
+    color: #f2f2f2;
+}
+
+.btn-primary{
+    background-color: #356393;
+    border-color: #356393;
+}
+    
+.account-masthead {
+    background: #336699;
+    height: 40px;
+    min-height: 30px;
+    width: 100%;
+}
+
+@media (min-width: 1200px){ 
+.container {
+    width: 92%;
+}
+}
+
+
+.container, .head-container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-fixed-top {
+    position: relative;
+} 
+
+.navbar-nav > li > a {
+    margin-right: 2px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > li > a:active {
+    background-color: #336699;
+}
+
+div > h1 > b {
+    line-height: 80px;
+}
+
+.centered > div > h2 {
+    margin-top: 10px;
+}
+
+input.search-query.form-control {
+    font-weight: bold;
+}
+
+.nav-masthead {
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    padding-right: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+    list-style: none;
+}
+
+@media (min-width:990px) { 
+.head-container {
+     width: 92%;
+     padding-right: 25px;
+}
+}
+
+@media (max-width:990px) {
+.head-container {
+    float: right;
+    padding-right: 30px;
+}
+}
+
+.nav-masthead li a {
+    color: #e6e6e6; 
+}
+.nav-masthead li a:hover {
+    color: #a5ccfb;
+    background-color: transparent;
+}
