@@ -1,4 +1,4 @@
-﻿$(function () {
+$(function () {
    
     $(".search-query-btn").click(function () {
         var tempParams = $('.search-query').val();
@@ -14,7 +14,7 @@
 });
 
 function sendToOG(in_search_params) {
-    var ogUri = "http://tempesandbox.ogopendata.com/dataset?q=";
+    var ogUri = "https://data.tempe.gov/dataset?q=";
     var encodedVal = encodeURIComponent(in_search_params);
     window.location = ogUri + encodedVal;
     return false;
