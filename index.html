@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -13,7 +13,8 @@
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Lusitana:400,700|Montserrat:400,700|Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Lusitana:400,700|Montserrat:400,700|Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+        rel="stylesheet">
 
     <style>
         .col-xs-15,
@@ -24,39 +25,49 @@
             min-height: 1px;
             padding-right: 10px;
             padding-left: 10px;
-            font-family: "Lato", sans-serif";
+            font-family: "Lato", sans-serif;
             font-weight: 400;
             font-size: 13px;
         }
+
         .col-xs-15 {
             width: 100%;
             float: left;
         }
-        @media (min-width: 768px) {
+
+        @media (min- width: 768px) {
             .col-sm-15 {
                 width: 50%;
                 float: left;
             }
         }
+
         @media (min-width: 992px) {
             .col-md-15 {
                 width: 20%;
                 float: left;
             }
         }
+
         @media (min-width: 1200px) {
             .col-lg-15 {
                 width: 20%;
                 float: left;
             }
+
+            .navbar.navbar-collapse {}
         }
-        .btn-primary > a {
+
+        .btn-primary>a {
             color: #f2f2f2;
         }
-        .div_hover {} @media (max-width: 992px) {
-            .input-group-btn > .btn {
+        /*   .div_hover {} */
+
+        @media (max-width: 992px) {
+            .input-group-btn>.btn {
                 margin-bottom: 20px !important;
             }
+
             .input-group .form-control {
                 margin-bottom: 20px !important;
             }
@@ -91,7 +102,9 @@
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="index.html" title="City of Tempe">CITY OF TEMPE</a>
             </div>
@@ -99,17 +112,23 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active">
                         <a href="index.html" alt="Home" title="Home">
-                        HOME
+                            HOME
                         </a>
                     </li>
                     <li>
                         <a href="index.html#dg" alt="STRATEGIC PRIORITIES" title="Strategic Priorities">
-                        STRATEGIC PRIORITIES
+                            STRATEGIC PRIORITIES
                         </a>
                     </li>
                     <li>
-                        <a style="font-weight: 900;" href="/" alt="Open Data Portal" title="Open Data Portal">
-                        OPEN DATA
+                        <a href="http://www.tempe.gov/city-hall/strategic-management-and-diversity" alt="Office of Strategic Management" target="_blank"
+                            title="Strategic Priorities">
+                            OFFICE OF STRATEGIC MANAGEMENT
+                        </a>
+                    </li>
+                    <li>
+                        <a style="font-weight: 900;" href="/" alt="Open Data Portal" target="_blank" title="Open Data Portal">
+                            OPEN DATA
                         </a>
                     </li>
                 </ul>
@@ -127,7 +146,7 @@
                     <h2>
                         Measurable, Accountable, Transparent
                     </h2>
-                    <br/>
+                    <br />
 
                     <div class="row">
                         <div id="custom-search-input">
@@ -161,13 +180,13 @@
                     <a href="https://opengov.civicdashboards.com/embed/2ebe34" target="_blank">
                         <div class="box box-hover-color">
                             <figure>
-                                <img src="assets/img/safefire.jpg" style="width:205px;height:90px:" alt="safe and secure communities dashboard" title="Safe and Secure Communities">
+                                <img src="assets/img/safefire.jpg" style="width:205px;height:90px;" alt="safe and secure communities dashboard" title="Safe and Secure Communities">
 
                                 <figure2>
-                                    <img src="assets/img/safelogosm.png" style="width:28px;height:28px">
+                                    <img src="assets/img/safelogosmnew.png" style="width:28px;height:28px">
                                 </figure2>
 
-                                <figuresinglecaption>Safe & Secure Communities</figuresinglecaption>
+                                <figure2caption>Safe & Secure Communities</figure2caption>
                             </figure>
                         </div>
                     </a>
@@ -175,13 +194,13 @@
                 <!-- /col-lg-3 -->
                 <!-- Second Chart -->
                 <div class="col-lg-15 col-sm-15 col-xs-15">
-                    <a href="#">
+                    <a href="https://opengov.civicdashboards.com/embed/615d27/" target="_blank">
                         <div class="box box-hover-color">
                             <figure>
-                                <img src="assets/img/strongcommunity.jpg" style="width:205px;height:90px:">
+                                <img src="assets/img/strongcommconnections.jpg" style="width:205px;height:90px;">
 
                                 <figure2>
-                                    <img src="assets/img/stronglogosm.png" style="width:28px;height:28px" alt="coming soon strong community connections dashboard" title="Strong Community Connections">
+                                    <img src="assets/img/stronglogosmnew.png" style="width:28px;height:28px" alt="strong community connections dashboard" title="Strong Community Connections">
                                 </figure2>
 
                                 <figure2caption>Strong Community Connections</figure2caption>
@@ -193,13 +212,13 @@
                 <!-- /col-lg-3 -->
                 <!-- Third Chart -->
                 <div class="col-lg-15 col-sm-15 col-xs-15">
-                    <a href="#">
+                    <a href="https://opengov.civicdashboards.com/embed/be4edc/" target="_blank">
                         <div class="box box-hover-color">
                             <figure>
-                                <img src="assets/img/quality.jpg" style="width:205px;height:90px:">
+                                <img src="assets/img/quality.jpg" style="width:205px;height:90px;">
 
                                 <figure2>
-                                    <img src="assets/img/qualitylogosm.png" style="width:28px;height:28px" alt="coming soon quality of life dashboard" title="Quality of Life">
+                                    <img src="assets/img/qualitylogosmnew.png" style="width:28px;height:28px" alt="quality of life dashboard" title="Quality of Life">
                                 </figure2>
 
                                 <figuresinglecaption>Quality of Life</figuresinglecaption>
@@ -211,13 +230,13 @@
                 <!-- /col-lg-3 -->
                 <!-- Fourth Chart -->
                 <div class="col-lg-15 col-sm-15 col-xs-15">
-                    <a href="#">
+                    <a href="https://opengov.civicdashboards.com/embed/08c686/" target="_blank">
                         <div class="box box-hover-color">
                             <figure>
-                                <img src="assets/img/sustainsolar.jpg" style="width:205px;height:90px:" alt="coming soon sustainable growth dashboard" title="Sustainable Growth and Development">
+                                <img src="assets/img/sustainsolar.jpg" style="width:205px;height:90px;" alt="sustainable growth dashboard" title="Sustainable Growth and Development">
 
                                 <figure2>
-                                    <img src="assets/img/sustainlogosm.png" style="width:28px;height:28px">
+                                    <img src="assets/img/sustainlogosmnew.png" style="width:28px;height:28px">
                                 </figure2>
 
                                 <figure2caption>Sustainable Growth & Development</figure2caption>
@@ -229,17 +248,19 @@
                 <!-- /col-lg-3 -->
                 <!-- Fifth Chart -->
                 <div class="col-lg-15 col-sm-15 col-xs-15">
-                    <a href="#">
+                    <a href="https://opengov.civicdashboards.com/embed/25ece4" target="_blank">
                         <div class="box box-hover-color">
                             <figure>
-                                <img src="assets/img/financial.jpg" style="width:205px;height:90px:" alt="coming soon financial vitality dashboard" title="Financial Stability and Vitality">
+                                <img src="assets/img/financial.jpg" style="width:205px;height:90px;" alt="financial vitality dashboard" title="Financial Stability and Vitality">
 
                                 <figure2>
-                                    <img src="assets/img/financiallogosm.png" style="width:28px;height:28px">
+                                    <img src="assets/img/financiallogosmnew.png" style="width:28px;height:28px">
                                 </figure2>
 
-                                <figure2caption>Financial Stability
-                                    <br>& Vitality</figure2caption>
+                                <figure2caption>
+                                    Financial Stability
+                                    <br>& Vitality
+                                </figure2caption>
                             </figure>
                         </div>
                         <br />
@@ -249,8 +270,9 @@
             </div>
             <!-- row -->
             <div id="ct">
-            <h4>
-                BROWSE OUR CROSSCUT THEMES</h4>
+                <h4>
+                    BROWSE OUR CROSSCUT THEMES
+                </h4>
             </div>
             <hr />
             <div class="row centered">
@@ -259,7 +281,7 @@
                     <a href="http://opengov.civicdashboards.com/embed/d5a39b" target="_blank">
                         <div class="box box-hover-color">
                             <figure>
-                                <img src="assets/img/savinglives2.jpg" style="width:205px;height:90px:" alt="coming soon saving lives dashboard" title="Saving Lives">
+                                <img src="assets/img/savinglives2.jpg" style="width:205px;height:90px;" alt="coming soon saving lives dashboard" title="Saving Lives">
 
                                 <figuresinglecaption>Saving Lives</figuresinglecaption>
                             </figure>
@@ -273,7 +295,7 @@
                     <a href="#">
                         <div class="box box-hover-color">
                             <figure>
-                                <img src="assets/img/justice.jpg" style="width:205px;height:90px:" alt="coming soon upholding justice dashboard" title="Upholding Fairness, Justice, Inclusivity">
+                                <img src="assets/img/justice.jpg" style="width:205px;height:90px;" alt="coming soon upholding justice dashboard" title="Upholding Fairness, Justice, Inclusivity">
 
                                 <figure2crosscaption>Upholding Fairness, Justice, Inclusivity</figure2crosscaption>
                             </figure>
@@ -287,7 +309,7 @@
                     <a href="#">
                         <div class="box box-hover-color">
                             <figure>
-                                <img src="assets/img/empower2.jpg" style="width:205px;height:90px:" alt="coming soon empowering community dashboard" title="Engaging and Empowering Community Members">
+                                <img src="assets/img/empower2.jpg" style="width:205px;height:90px;" alt="coming soon empowering community dashboard" title="Engaging and Empowering Community Members">
 
                                 <figure2crosscaption>Engaging and Empowering Community Members</figure2crosscaption>
                             </figure>
@@ -301,7 +323,7 @@
                     <a href="#">
                         <div class="box box-hover-color">
                             <figure>
-                                <img src="assets/img/bikeride.jpg" style="width:205px;height:90px:" alt="coming soon fostering safetydashboard" title="Fostering Safety, Education, Well-Being">
+                                <img src="assets/img/bikeride.jpg" style="width:205px;height:90px;" alt="coming soon fostering safetydashboard" title="Fostering Safety, Education, Well-Being">
 
                                 <figure2crosscaption>Fostering Safety, Education, Well-Being</figure2crosscaption>
                             </figure>
@@ -315,7 +337,7 @@
                     <a href="#">
                         <div class="box box-hover-color">
                             <figure>
-                                <img src="assets/img/shakehand.jpg" style="width:205px;height:90px:" alt="coming soon customer experience dashboard" title="Delivering Helpful Customer Experiences">
+                                <img src="assets/img/shakehand.jpg" style="width:205px;height:90px;" alt="coming soon customer experience dashboard" title="Delivering Helpful Customer Experiences">
 
                                 <figure2caption>Delivering Helpful Customer Experiences</figure2caption>
                             </figure>
@@ -329,7 +351,7 @@
                     <a href="#">
                         <div class="box box-hover-color">
                             <figure>
-                                <img src="assets/img/business.jpg" style="width:205px;height:90px:" alt="coming soon transparent operations dashboard" title="Ensuring Accountable, Transparent, High-Performing Operations">
+                                <img src="assets/img/business.jpg" style="width:205px;height:90px;" alt="coming soon transparent operations dashboard" title="Ensuring Accountable, Transparent, High-Performing Operations">
 
                                 <figure2crosscaption>Ensuring Accountable, Transparent, High-Performing Operations</figure2crosscaption>
                             </figure>
@@ -343,7 +365,7 @@
                     <a href="#">
                         <div class="box box-hover-color">
                             <figure>
-                                <img src="assets/img/youngppl.jpg" style="width:205px;height:90px:" alt="coming soon vibrant community dashboard" title="Building a Growing, Vibrant Community">
+                                <img src="assets/img/youngppl.jpg" style="width:205px;height:90px;" alt="coming soon vibrant community dashboard" title="Building a Growing, Vibrant Community">
 
                                 <figure2crosscaption>Building a Growing, Vibrant Community</figure2crosscaption>
                             </figure>
@@ -357,7 +379,7 @@
                     <a href="#">
                         <div class="box box-hover-color">
                             <figure>
-                                <img src="assets/img/safetyeduwell2.jpg" style="width:205px;height:90px:" title="Producing Positive Outcomes for Youth" alt="coming soon youth outcome dashboard">
+                                <img src="assets/img/safetyeduwell2.jpg" style="width:205px;height:90px;" title="Producing Positive Outcomes for Youth" alt="coming soon youth outcome dashboard">
 
                                 <figure2crosscaption>Producing Positive Outcomes for Youth</figure2crosscaption>
                             </figure>
@@ -371,7 +393,7 @@
                     <a href="#">
                         <div class="box box-hover-color">
                             <figure>
-                                <img src="assets/img/digging2.jpg" style="width:205px;height:90px:" title="Advancing Environmental Stewardship" alt="coming soon environmental steward dashboard">
+                                <img src="assets/img/digging2.jpg" style="width:205px;height:90px;" title="Advancing Environmental Stewardship" alt="coming soon environmental steward dashboard">
 
                                 <figure2caption>Advancing Environmental Stewardship </figure2caption>
                             </figure>
@@ -385,7 +407,7 @@
                     <a href="#">
                         <div class="box box-hover-color">
                             <figure>
-                                <img src="assets/img/solartable.jpg" style="width:205px;height:90px:" title="Driving Economic Vitality" alt="coming soon economic vitality dashboard">
+                                <img src="assets/img/solartable.jpg" style="width:205px;height:90px;" title="Driving Economic Vitality" alt="coming soon economic vitality dashboard">
 
                                 <figuresinglecaption>Driving Economic Vitality</figuresinglecaption>
                             </figure>
@@ -415,59 +437,78 @@
             </div>
             <div class="col-lg-4 col-md-4">
                 <h4>
-                    STRATEGIC PRIORITIES (<i>priorities in italic coming soon</i>)
+                    STRATEGIC PRIORITIES
                 </h4>
                 <br>
                 <p>
-                    <a href="https://opengov.civicdashboards.com/dashboard/2ebe34">Safe and Secure Communities</a>
+                    <a href="https://opengov.civicdashboards.com/embed/2ebe34" target="_blank">Safe and Secure Communities</a>
                 </p>
                 <p>
-                    <a href="#"><i>Strong Community Connections</i></a>
+                    <a href="https://opengov.civicdashboards.com/embed/615d27/" target="_blank">Strong Community Connections</a>
                 </p>
                 <p>
-                    <a href="#"><i>Quality of Life</i></a>
+                    <a href="https://opengov.civicdashboards.com/embed/be4edc/" target="_blank">Quality of Life</a>
                 </p>
                 <p>
-                    <a href="#"><i>Sustainable Growth and Development</i></a>
+                    <a href="https://opengov.civicdashboards.com/embed/08c686/" target="_blank">Sustainable Growth and Development</a>
                 </p>
                 <p>
-                    <a href="#"><i>Financial Stability and Vitality</i></a>
+                    <a href="https://opengov.civicdashboards.com/embed/25ece4" target="_blank">Financial Stability and Vitality</a>
                 </p>
             </div>
             <div class="col-lg-4 col-md-4">
                 <h4>
-                    CROSSCUT THEMES (<i>themes in italic coming soon</i>)
+                    CROSSCUT THEMES (
+                    <i>themes in italic coming soon</i>)
                 </h4>
                 <br>
                 <p>
-                    <a href="http://opengov.civicdashboards.com/dashboard/d5a39b" target="_blank">Saving Lives</a>
+                    <a href="http://opengov.civicdashboards.com/embed/d5a39b" target="_blank">Saving Lives</a>
                 </p>
                 <p>
-                    <a href="#"><i>Upholding Fairness, Justice, Inclusivity</i></a>
+                    <a href="#">
+                        <i>Upholding Fairness, Justice, Inclusivity</i>
+                    </a>
                 </p>
                 <p>
-                    <a href="#"><i>Engaging and Empowering Community Members</i></a>
+                    <a href="#">
+                        <i>Engaging and Empowering Community Members</i>
+                    </a>
                 </p>
                 <p>
-                    <a href="#"><i>Fostering Safety, Education, Well-Being</i></a>
+                    <a href="#">
+                        <i>Fostering Safety, Education, Well-Being</i>
+                    </a>
                 </p>
                 <p>
-                    <a href="#"><i>Delivering Helpful Customer Experiences</i></a>
+                    <a href="#">
+                        <i>Delivering Helpful Customer Experiences</i>
+                    </a>
                 </p>
                 <p>
-                    <a href="#"><i>Ensuring Accountable, Transparent, High-Performing Operations</i></a>
+                    <a href="#">
+                        <i>Ensuring Accountable, Transparent, High-Performing Operations</i>
+                    </a>
                 </p>
                 <p>
-                    <a href="#"><i>Building a Growing, Vibrant Community</i></a>
+                    <a href="#">
+                        <i>Building a Growing, Vibrant Community</i>
+                    </a>
                 </p>
                 <p>
-                    <a href="#"><i>Producing Positive Outcomes for Youth</i></a>
+                    <a href="#">
+                        <i>Producing Positive Outcomes for Youth</i>
+                    </a>
                 </p>
                 <p>
-                    <a href="#"><i>Advancing Environmental Stewardship</i></a>
+                    <a href="#">
+                        <i>Advancing Environmental Stewardship</i>
+                    </a>
                 </p>
                 <p>
-                    <a href="#"><i>Driving Economic Vitality</i></a>
+                    <a href="#">
+                        <i>Driving Economic Vitality</i>
+                    </a>
                 </p>
             </div>
         </div>
@@ -478,9 +519,15 @@
     <div id="f">
         <div class="container">
             <div class="row centered">
-                <a href="http://www.twitter.com/tempegov" target="_blank"><i class="fa fa-twitter"></i></a>
-                <a href="http://www.facebook.com/Cityoftempe" target="_blank"><i class="fa fa-facebook"></i></a>
-                <a href="http://www.tempe.gov" target="_blank"><i class="fa fa-dribbble"></i></a>
+                <a href="http://www.twitter.com/tempegov" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a href="http://www.facebook.com/Cityoftempe" target="_blank">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="http://www.tempe.gov" target="_blank">
+                    <i class="fa fa-dribbble"></i>
+                </a>
             </div>
             <!-- row -->
         </div>
@@ -507,8 +554,7 @@
                             <br /> strategic_management@tempe.gov
                         </p>
                         <div id="mapwrap">
-                            <iframe height="300" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.es/maps?t=m&amp;ie=UTF8&amp;ll=33.424892,-111.938316&amp;spn=67.34552,156.972656&amp;z=16&amp;output=embed">
-                            </iframe>
+                            <iframe height="300" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.es/maps?t=m&amp;ie=UTF8&amp;ll=33.424892,-111.938316&amp;spn=67.34552,156.972656&amp;z=16&amp;output=embed"></iframe>
                         </div>
                     </div>
                 </div>
@@ -524,7 +570,8 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+        crossorigin="anonymous"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/openGovConnector.js"></script>
 </body>
